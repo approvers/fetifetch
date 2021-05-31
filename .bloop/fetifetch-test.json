@@ -1,0 +1,420 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "fetifetch-test",
+        "directory": "/home/soshi/project/fetifetch",
+        "workspaceDir": "/home/soshi/project/fetifetch",
+        "sources": [
+            "/home/soshi/project/fetifetch/src/test/scala",
+            "/home/soshi/project/fetifetch/src/test/scala-2.12",
+            "/home/soshi/project/fetifetch/src/test/scala-2",
+            "/home/soshi/project/fetifetch/src/test/java",
+            "/home/soshi/project/fetifetch/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "fetifetch"
+        ],
+        "classpath": [
+            "/home/soshi/project/fetifetch/.bloop/fetifetch/scala-2.12/classes",
+            "/home/soshi/.sbt/boot/scala-2.12.12/lib/scala-library.jar",
+            "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-launcher_2.12/19.11.1/airframe-launcher_2.12-19.11.1.jar",
+            "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-surface_2.12/19.11.1/airframe-surface_2.12-19.11.1.jar",
+            "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-control_2.12/19.11.1/airframe-control_2.12-19.11.1.jar",
+            "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-codec_2.12/19.11.1/airframe-codec_2.12-19.11.1.jar",
+            "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.2/scala-collection-compat_2.12-2.1.2.jar",
+            "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar",
+            "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-log_2.12/19.11.1/airframe-log_2.12-19.11.1.jar",
+            "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar",
+            "/home/soshi/.sbt/boot/scala-2.12.12/lib/scala-reflect.jar",
+            "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-jmx_2.12/19.11.1/airframe-jmx_2.12-19.11.1.jar",
+            "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-msgpack_2.12/19.11.1/airframe-msgpack_2.12-19.11.1.jar",
+            "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-metrics_2.12/19.11.1/airframe-metrics_2.12-19.11.1.jar",
+            "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-json_2.12/19.11.1/airframe-json_2.12-19.11.1.jar",
+            "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+            "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/msgpack/msgpack-core/0.8.16/msgpack-core-0.8.16.jar"
+        ],
+        "out": "/home/soshi/project/fetifetch/.bloop/fetifetch",
+        "classesDir": "/home/soshi/project/fetifetch/.bloop/fetifetch/scala-2.12/test-classes",
+        "resources": [
+            "/home/soshi/project/fetifetch/src/test/resources",
+            "/home/soshi/project/fetifetch/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.12",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/soshi/.sbt/boot/scala-2.12.12/lib/jansi.jar",
+                "/home/soshi/.sbt/boot/scala-2.12.12/lib/scala-library.jar",
+                "/home/soshi/.sbt/boot/scala-2.12.12/lib/jline.jar",
+                "/home/soshi/.sbt/boot/scala-2.12.12/lib/scala-xml_2.12.jar",
+                "/home/soshi/.sbt/boot/scala-2.12.12/lib/scala-reflect.jar",
+                "/home/soshi/.sbt/boot/scala-2.12.12/lib/scala-compiler.jar"
+            ],
+            "analysis": "/home/soshi/project/fetifetch/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-8-openjdk/jre",
+                "options": [
+                    "-Duser.dir=/home/soshi/project/fetifetch"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/soshi/.sbt/boot/scala-2.12.12/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-launcher_2.12",
+                    "version": "19.11.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-launcher_2.12",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-launcher_2.12/19.11.1/airframe-launcher_2.12-19.11.1.jar"
+                        },
+                        {
+                            "name": "airframe-launcher_2.12",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-launcher_2.12/19.11.1/airframe-launcher_2.12-19.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-surface_2.12",
+                    "version": "19.11.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-surface_2.12",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-surface_2.12/19.11.1/airframe-surface_2.12-19.11.1.jar"
+                        },
+                        {
+                            "name": "airframe-surface_2.12",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-surface_2.12/19.11.1/airframe-surface_2.12-19.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-control_2.12",
+                    "version": "19.11.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-control_2.12",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-control_2.12/19.11.1/airframe-control_2.12-19.11.1.jar"
+                        },
+                        {
+                            "name": "airframe-control_2.12",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-control_2.12/19.11.1/airframe-control_2.12-19.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-codec_2.12",
+                    "version": "19.11.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-codec_2.12",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-codec_2.12/19.11.1/airframe-codec_2.12-19.11.1.jar"
+                        },
+                        {
+                            "name": "airframe-codec_2.12",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-codec_2.12/19.11.1/airframe-codec_2.12-19.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_2.12",
+                    "version": "2.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.2/scala-collection-compat_2.12-2.1.2.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.2/scala-collection-compat_2.12-2.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.12",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-log_2.12",
+                    "version": "19.11.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-log_2.12",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-log_2.12/19.11.1/airframe-log_2.12-19.11.1.jar"
+                        },
+                        {
+                            "name": "airframe-log_2.12",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-log_2.12/19.11.1/airframe-log_2.12-19.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.annotation",
+                    "name": "javax.annotation-api",
+                    "version": "1.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javax.annotation-api",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar"
+                        },
+                        {
+                            "name": "javax.annotation-api",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/soshi/.sbt/boot/scala-2.12.12/lib/scala-reflect.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.12/scala-reflect-2.12.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-jmx_2.12",
+                    "version": "19.11.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-jmx_2.12",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-jmx_2.12/19.11.1/airframe-jmx_2.12-19.11.1.jar"
+                        },
+                        {
+                            "name": "airframe-jmx_2.12",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-jmx_2.12/19.11.1/airframe-jmx_2.12-19.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-msgpack_2.12",
+                    "version": "19.11.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-msgpack_2.12",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-msgpack_2.12/19.11.1/airframe-msgpack_2.12-19.11.1.jar"
+                        },
+                        {
+                            "name": "airframe-msgpack_2.12",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-msgpack_2.12/19.11.1/airframe-msgpack_2.12-19.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-metrics_2.12",
+                    "version": "19.11.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-metrics_2.12",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-metrics_2.12/19.11.1/airframe-metrics_2.12-19.11.1.jar"
+                        },
+                        {
+                            "name": "airframe-metrics_2.12",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-metrics_2.12/19.11.1/airframe-metrics_2.12-19.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-json_2.12",
+                    "version": "19.11.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-json_2.12",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-json_2.12/19.11.1/airframe-json_2.12-19.11.1.jar"
+                        },
+                        {
+                            "name": "airframe-json_2.12",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-json_2.12/19.11.1/airframe-json_2.12-19.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.msgpack",
+                    "name": "msgpack-core",
+                    "version": "0.8.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "msgpack-core",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/msgpack/msgpack-core/0.8.16/msgpack-core-0.8.16.jar"
+                        },
+                        {
+                            "name": "msgpack-core",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/msgpack/msgpack-core/0.8.16/msgpack-core-0.8.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.12",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/soshi/.sbt/boot/scala-2.12.12/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/soshi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
