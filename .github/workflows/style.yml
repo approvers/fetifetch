@@ -1,0 +1,17 @@
+name: style
+on:
+  pull_request:
+jobs:
+  style:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Setup
+        uses: olafurpg/setup-scala@v10
+        with:
+          java-version: 11
+      - name: style
+        run: sbt scalastyle
+
+
